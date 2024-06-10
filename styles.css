@@ -40,7 +40,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s;
-    color: #333; /* Preto/cinza para todas as visualizações */
+    color: #333; 
 }
 
 nav ul li a:hover {
@@ -152,15 +152,18 @@ main {
     background-color: #555;
 }
 
-.cybertruck-title {
-    font-family: 'Pixo Reto', Arial, sans-serif;
-    font-size: 6rem;
-    color: #333;
+.cybertruck-logo-container {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.cybertruck-logo-img {
+    width: 50px; 
+    height: auto;
 }
 
 footer {
@@ -244,36 +247,16 @@ footer {
     }
 
     nav ul li a {
-        color: #333; /* Preto/cinza para desktop */
+        color: #333; 
     }
 }
 
 .tesla-logo {
     display: flex;
     align-items: center;
-    font-family: 'Pixo Reto', Arial, sans-serif;
-    font-size: 1.5rem;
-    color: #333;
-    font-weight: bold;
 }
 
-.tesla-logo span {
-    margin-right: 0.2rem;
-}
-
-.tesla-logo .e div {
-    width: 8px;
-    height: 2px;
-    background-color: #333;
-    margin: 1px 0;
-}
-
-.tesla-logo .e {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.tesla-logo .a {
-    position: relative;
+.tesla-logo-img {
+    width: 100px;
+    height: auto;
 }
